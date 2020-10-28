@@ -28,6 +28,33 @@
     &__username {
       height: 100px;
       background-color: #253141;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__items {
+        width: 260px;
+        line-height: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        &--name {
+          font-size: 16px;
+          font-weight: bold;
+          color: #ffffff;
+        }
+
+        &--btn {
+          width: 60px;
+          display: flex;
+          justify-content: flex-end;
+          &--icon {
+            display: block;
+            margin-left: 5px;
+            color: #ffffff;
+          }
+        }
+      }
     }
 
     &__group-list {
